@@ -75,10 +75,6 @@ driver.find_element(By.XPATH, "/html/body/div[1]/div/div[2]/div/section/div/ol/l
 print(" clicked 6 Community \n")
 time.sleep(6)
 
-# driver.execute_script("window.scrollTo(0, 500)")
-# time.sleep(2)
-# print("scrolled 500px")
-
 
 print("TestCase - 6: YouTube Iframe")
 driver.execute_script("window.scrollTo(0, 500)")
